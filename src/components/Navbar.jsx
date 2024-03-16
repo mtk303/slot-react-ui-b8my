@@ -41,9 +41,9 @@ const Navbar = () => {
       <div className='d-flex gap-2  gap-sm-4 align-items-center text-light'>
          {/* Login And Register Btn */}
          <NavLink to={'/login'} className=' btn me-4 text-uppercase fw-bold px-5 d-sm-block d-none' style={{backgroundColor:'rgb(215, 25, 25)',border:'1px solid gold'}}>Login</NavLink>
-         <div className='d-sm-none d-block'>
+         <NavLink to={'/login'} className='d-sm-none d-block'>
           <FaUserAlt size={30} color='#b81212'/>
-         </div>
+         </NavLink>
          
         {/* <button className='btn  text-uppercase fw-bold px-5' style={{backgroundColor:'rgb(215, 25, 25)',border:'1px solid gold'}}>Register</button>  */}
        

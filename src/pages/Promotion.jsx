@@ -18,7 +18,7 @@ const Promotion = ()=>{
                     return(
                         <>
                         <NavLink to={'/promotionDetail'}>
-                            <img src={img} alt="" className="w-100 mt-4"/>
+                            <img src={img} alt="" className="w-100 h-100 mt-4"/>
                         </NavLink>
                         </>
                     );
