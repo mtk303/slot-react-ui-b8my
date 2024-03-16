@@ -1,0 +1,15 @@
+.navbars{
+    cursor: pointer;
+    background: #e3b10e;
+    box-shadow: 0 3px 3px #b81212;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ddd;
+
+
+    width: 100%;
+
+    /* position: fixed; */
+}
